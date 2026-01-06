@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.project-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.project-card .btn:hover {
+  filter: brightness(1.1);
+}

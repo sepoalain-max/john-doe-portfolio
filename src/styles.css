@@ -1,0 +1,30 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+.nav-link.active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.service-card:hover, .project-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.btn-danger:hover {
+  filter: brightness(1.1);
+}
+
+footer a:hover {
+  font-weight: 600;
+  color: white;
+}
+.project-card {
+  transition: all 0.3s ease;
+}
+
+

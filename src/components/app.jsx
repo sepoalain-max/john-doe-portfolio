@@ -1,14 +1,14 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 import GithubModal from "./components/GithubModal";
 
-import Home from "./pages/Home";
-import Services from "./pages/Services";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Legal from "./pages/Legal";
+
+import Home from "../pages/Home";
+import Services from "../pages/Services";
+import Portfolio from "../pages/Portfolio";
+import Contact from "../pages/Contact";
+import Legal from "../pages/Legal";
 
 function App() {
   return (
@@ -22,9 +22,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions-legales" element={<Legal />} />
       </Routes>
-
-      {/* Modale GitHub disponible sur TOUTES les pages */}
-      <GithubModal />
 
       <Footer />
     </BrowserRouter>
